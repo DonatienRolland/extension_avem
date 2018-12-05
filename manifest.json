@@ -1,0 +1,23 @@
+
+{
+"manifest_version": 2,
+"name": "Avem Creation Extension",
+"description": "Avem Creation, un collectif plus que digital",
+"version": "0.1",
+"icons": {
+"128": "128.png"
+},
+"app": {
+"urls": [
+"http://localhost:3000"
+],
+"launch": {
+"web_url": "http://localhost:3000"
+}
+},
+"permissions": [
+"unlimitedStorage",
+"notifications",
+"activeTab"
+]
+}
